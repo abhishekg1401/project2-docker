@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: k8s-project1-ctr
-        image: abhishekg14/k8s-project1:latest
+        image: abhishekg14/k8s-project2:latest
         ports:
         - containerPort: 8000

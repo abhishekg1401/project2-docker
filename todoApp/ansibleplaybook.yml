@@ -4,8 +4,8 @@
     # become: true
   tasks:
   - name: create new namespace
-    command: kubectl apply -f /home/ubuntu/namespace.yaml
+    command: kubectl apply -f /home/ubuntu/todoApp/namespace.yaml
   - name: create new deployment
-    command: kubectl apply -f /home/ubuntu/deployment.yml
+    command: kubectl apply -f /home/ubuntu/todoApp/deployment.yml
   - name: create new service
-    command: kubectl apply -f /home/ubuntu/service.yaml 
+    command: kubectl apply -f /home/ubuntu/todoApp/service.yaml 
